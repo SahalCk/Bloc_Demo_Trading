@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tradeapp_demo/presentation/screens/listitems.dart';
 
 class MyTabBar extends StatelessWidget {
   const MyTabBar({super.key});
@@ -34,25 +35,16 @@ class MyTabBar extends StatelessWidget {
                 ),
               ),
             ),
-
-            // const Expanded(
-            //   child: TabBarView(
-            //     children: [
-            //       GridItem(
-            //         category: 'all',
-            //       ),
-            //       GridItem(
-            //         category: 'men',
-            //       ),
-            //       GridItem(
-            //         category: 'women',
-            //       ),
-            //       GridItem(
-            //         category: 'kids',
-            //       ),
-            //     ],
-            //   ),
-            // ),
+            const Expanded(
+              child: TabBarView(
+                children: [
+                  Listitem(category: "mylist"),
+                  Listitem(category: "NSE"),
+                  Listitem(category: "BSE"),
+                  Listitem(category: "SENSEX")
+                ],
+              ),
+            ),
           ],
         ),
       ),

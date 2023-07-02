@@ -28,7 +28,7 @@ List<BottomNavigationBarItem> bottomNavItems = const <BottomNavigationBarItem>[
 ];
 
 const List<Widget> bottomNavScreen = <Widget>[
-  Watchlist(),
+  WatchListScreen(),
   Text('orders'),
   Text('portfolio'),
   Text('Movers'),
