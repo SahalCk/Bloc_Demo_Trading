@@ -6,11 +6,11 @@ import '../../Business_logic/Landing_bloc/landing_page_bloc.dart';
 
 List<BottomNavigationBarItem> bottomNavItems = const <BottomNavigationBarItem>[
   BottomNavigationBarItem(
-    icon: Icon(Icons.list),
+    icon: Icon(Icons.bookmark_border_rounded),
     label: 'Wacthlist',
   ),
   BottomNavigationBarItem(
-    icon: Icon(Icons.cabin),
+    icon: Icon(Icons.shopping_bag_outlined),
     label: 'Orders',
   ),
   BottomNavigationBarItem(
